@@ -1,0 +1,15 @@
+.container {
+    perspective: 1000px; /* Adds perspective */
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #4CAF50;
+    transform: rotateX(45deg) rotateY(45deg);
+    transition: transform 0.5s;
+}
+
+.box:hover {
+    transform: rotateX(90deg) rotateY(90deg);
+}
